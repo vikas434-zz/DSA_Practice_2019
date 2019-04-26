@@ -3,11 +3,11 @@ public class ThreadPrintSequential {
     public static void main(String[] args) {
         int num_seq = 100;
         int num_thread = 3;
-        printer printer = new printer(num_thread, num_seq);
-       Thread t1 = new Thread(new SeqRunning(printer, 1), "Thread1");
-       Thread t2 = new Thread(new SeqRunning(printer, 2), "Thread2");
+        Printer printer = new Printer(num_thread, num_seq);
+        Thread t1 = new Thread(new SeqRunning(printer, 1), "Thread1");
+        Thread t2 = new Thread(new SeqRunning(printer, 2), "Thread2");
         Thread t3 = new Thread(new SeqRunning(printer, 0), "Thread3");
-        // Thread t4 = new Thread(new SeqRunning(printer, 4), "Thread4");
+        // Thread t4 = new Thread(new SeqRunning(Printer, 4), "Thread4");
 
         t1.start();
         t2.start();
@@ -20,12 +20,12 @@ public class ThreadPrintSequential {
 }
 
 class SeqRunning implements Runnable {
-    printer sp;
+    Printer sp;
     int result;
 
     Object sharedObject = new Object();
 
-    public SeqRunning(printer sp, int result) {
+    public SeqRunning(Printer sp, int result) {
         this.sp = sp;
         this.result = result;
     }
@@ -36,12 +36,12 @@ class SeqRunning implements Runnable {
     }
 }
 
-class printer {
+class Printer {
     int number = 1;
     int numOfThreads;
     int numOfSequence;
 
-    public printer(int numOfThreads, int numOfSequence) {
+    public Printer(int numOfThreads, int numOfSequence) {
         this.numOfThreads = numOfThreads;
         this.numOfSequence = numOfSequence;
     }
