@@ -10,8 +10,38 @@ public class Tree {
 
     Tree right;
 
+    public Tree() {
+        this.value = 0;
+        this.left = null;
+        this.right = null;
+    }
+
     public Tree(int value) {
         this.value = value;
+    }
+
+    public int getValue() {
+        return this.value;
+    }
+
+    public void setValue(int value) {
+        this.value = value;
+    }
+
+    public Tree getLeft() {
+        return this.left;
+    }
+
+    public void setLeft(Tree left) {
+        this.left = left;
+    }
+
+    public Tree getRight() {
+        return this.right;
+    }
+
+    public void setRight(Tree right) {
+        this.right = right;
     }
 
     // Left -> Right -> root
