@@ -4,7 +4,8 @@ public class Threads {
         PrinterMachine printerMachine = new PrinterMachine();
         ExtendingThread extendingThread = new ExtendingThread(printerMachine, "Vikas.pdf", 10);
         extendingThread.start();
-        new Thread(new RunnableImplementingThread(printerMachine, "Ranjan2.pdf", 5)).start();
+        //extendingThread.join();
+        new Thread(new RunnableImplementingThread(printerMachine, "Ranjan2.pdf", 10)).start();
         RunnableImplementingThread runnableImplementingThread = new RunnableImplementingThread(printerMachine, "Ranjan.pdf", 10);
         // runnableImplementingThread.run();
         System.out.println("Application finished on "+Thread.currentThread().getName());
@@ -24,7 +25,7 @@ class ExtendingThread extends Thread {
     }
 
     @Override
-    public synchronized void start() {
+    public void start() {
         System.out.println("In start method of thread extend");
         super.start();
     }
@@ -41,13 +42,19 @@ class ExtendingThread extends Thread {
 
 class PrinterMachine {
     public PrinterMachine() {
+
     };
 
-    public synchronized void printDocument(String filename, int noOfCopies) throws InterruptedException {
-        for(int i =0; i<noOfCopies; i++) {
-            Thread.sleep(200);
-            System.out.println("Printing "+filename+" copy no "+i+" on "+Thread.currentThread().getName());
+    public void printDocument(String filename, int noOfCopies) throws InterruptedException {
+        synchronized (this) {
+            System.out.println("Synchonization done on "+this+" by thread "+Thread.currentThread().getName());
+            for(int i =0; i<noOfCopies; i++) {
+                Thread.sleep(200);
+                System.out.println("Printing "+filename+" copy no "+i+" on "+Thread.currentThread().getName());
+            }
         }
+        System.out.println("Outside synchronized for thread "+Thread.currentThread().getName());
+
     }
 }
 

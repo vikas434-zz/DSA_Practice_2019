@@ -2,13 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bd5bb156-08b6-43c1-9475-6825ed6e5fd4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Threads.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/LRUCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/LRUCacheDriver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/LeetCode/SpiralOrderMatrix.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/LeetCode/SpiralOrderMatrix.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/SeqRunning.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/SeqRunning.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/ThreadPrintSequential.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/ThreadPrintSequential.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/printer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/printer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ThreadPrintSequential.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ThreadPrintSequential.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/ExtendingThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/ExtendingThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/PrinterMachine.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/PrinterMachine.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/RunnableImplementingThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/RunnableImplementingThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/Threads.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/Threads.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Threads.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Threads.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,22 +35,22 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="13872" />
+          <entry key="java" value="15107" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="13872" />
+          <entry key="JAVA" value="15107" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="31" />
+          <entry key="java" value="35" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="31" />
+          <entry key="JAVA" value="35" />
         </counts>
       </usages-collector>
     </session>
@@ -79,40 +80,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/GKG/Tree/MinHeapUsingArray.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1065">
-              <caret line="77" column="57" selection-start-line="77" selection-start-column="57" selection-end-line="77" selection-end-column="57" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/GKG/DynamicProgramming/SubsetSumProblem.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/GKG/Tree/MaxDiameterTree.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="107" selection-start-line="20" selection-start-column="107" selection-end-line="20" selection-end-column="107" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ThreadPrintSequential.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-84">
-              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="171">
+              <caret line="49" column="26" selection-start-line="49" selection-start-column="22" selection-end-line="49" selection-end-column="26" />
               <folding>
                 <element signature="e#541#542#0" expanded="true" />
                 <element signature="e#558#559#0" expanded="true" />
@@ -122,10 +93,41 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/LeetCode/LRUCache.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="19" column="38" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/LeetCode/LRUCacheDriver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/util/LinkedList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="139">
+              <caret line="812" column="19" selection-start-line="812" selection-start-column="19" selection-end-line="812" selection-end-column="19" />
+              <folding>
+                <element signature="e#24161#24162#0" expanded="true" />
+                <element signature="e#24193#24194#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Threads.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+            <state relative-caret-position="169">
+              <caret line="49" column="108" selection-start-line="49" selection-start-column="108" selection-end-line="49" selection-end-column="108" />
             </state>
           </provider>
         </entry>
@@ -158,17 +160,21 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/lang/Thread.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="146">
-              <caret line="698" column="29" selection-start-line="698" selection-start-column="29" selection-end-line="698" selection-end-column="29" />
+            <state relative-caret-position="247">
+              <caret line="1324" column="22" selection-start-line="1324" selection-start-column="22" selection-end-line="1324" selection-end-column="22" />
+              <folding>
+                <element signature="e#52232#52233#0" expanded="true" />
+                <element signature="e#52261#52262#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/GKG/Tree/TreeTestMain.java">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/lang/management/ThreadInfo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+            <state relative-caret-position="1035">
+              <caret line="95" column="38" lean-forward="true" selection-start-line="95" selection-start-column="38" selection-end-line="95" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -221,6 +227,8 @@
         <option value="$PROJECT_DIR$/src/LeetCode/SpiralOrderMatrix.java" />
         <option value="$PROJECT_DIR$/src/ThreadPrintSequential.java" />
         <option value="$PROJECT_DIR$/src/Threads.java" />
+        <option value="$PROJECT_DIR$/src/LeetCode/LRUCacheDriver.java" />
+        <option value="$PROJECT_DIR$/src/LeetCode/LRUCache.java" />
       </list>
     </option>
   </component>
@@ -257,6 +265,12 @@
               <item name="JavaPractice" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaPractice" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaPractice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaPractice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="ThreadPrintSequential.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
           </expand>
@@ -271,7 +285,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556298075414" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556338620835" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -293,7 +307,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Threads">
+  <component name="RunManager" selected="Application.LRUCacheDriver">
+    <configuration name="LRUCacheDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeetCode.LRUCacheDriver" />
+      <module name="JavaPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LeetCode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MaxDiameterTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="GKG.Tree.MaxDiameterTree" />
       <module name="JavaPractice" />
@@ -334,33 +361,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TreeTestMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="GKG.Tree.TreeTestMain" />
-      <module name="JavaPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="GKG.Tree.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.TreeTestMain" />
       <item itemvalue="Application.MaxDiameterTree" />
       <item itemvalue="Application.ThreadPrintSequential" />
       <item itemvalue="Application.SpiralOrderMatrix" />
       <item itemvalue="Application.Threads" />
+      <item itemvalue="Application.LRUCacheDriver" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LRUCacheDriver" />
         <item itemvalue="Application.Threads" />
         <item itemvalue="Application.ThreadPrintSequential" />
         <item itemvalue="Application.SpiralOrderMatrix" />
         <item itemvalue="Application.MaxDiameterTree" />
-        <item itemvalue="Application.TreeTestMain" />
       </list>
     </recent_temporary>
   </component>
@@ -391,7 +405,7 @@
       <workItem from="1555189897425" duration="689000" />
       <workItem from="1556023370013" duration="22966000" />
       <workItem from="1556203831858" duration="1550000" />
-      <workItem from="1556263431339" duration="15459000" />
+      <workItem from="1556263431339" duration="21785000" />
     </task>
     <servers />
   </component>
@@ -422,7 +436,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57385000" />
+    <option name="totallyTimeSpent" value="63711000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="797" extended-state="0" />
@@ -747,13 +761,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/lang/Thread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="698" column="29" selection-start-line="698" selection-start-column="29" selection-end-line="698" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/GKG/Tree/Tree.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="232">
@@ -798,10 +805,35 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Threads.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="49" column="108" selection-start-line="49" selection-start-column="108" selection-end-line="49" selection-end-column="108" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/lang/management/ThreadInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1035">
+          <caret line="95" column="38" lean-forward="true" selection-start-line="95" selection-start-column="38" selection-end-line="95" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="1324" column="22" selection-start-line="1324" selection-start-column="22" selection-end-line="1324" selection-end-column="22" />
+          <folding>
+            <element signature="e#52232#52233#0" expanded="true" />
+            <element signature="e#52261#52262#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/ThreadPrintSequential.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-84">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="171">
+          <caret line="49" column="26" selection-start-line="49" selection-start-column="22" selection-end-line="49" selection-end-column="26" />
           <folding>
             <element signature="e#541#542#0" expanded="true" />
             <element signature="e#558#559#0" expanded="true" />
@@ -809,10 +841,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Threads.java">
+    <entry file="file://$PROJECT_DIR$/src/LeetCode/LRUCacheDriver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+        <state relative-caret-position="195">
+          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/util/LinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="812" column="19" selection-start-line="812" selection-start-column="19" selection-end-line="812" selection-end-column="19" />
+          <folding>
+            <element signature="e#24161#24162#0" expanded="true" />
+            <element signature="e#24193#24194#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LeetCode/LRUCache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="19" column="38" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
         </state>
       </provider>
     </entry>
