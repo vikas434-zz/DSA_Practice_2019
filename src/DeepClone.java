@@ -22,8 +22,10 @@ public class DeepClone {
         queue.add(node.val);
         cloneNode.val = node.val;
         cloneNode.neighbors = new ArrayList<>();
-        List<Node> neighbourList = node.neighbors;
 
+        List<Node> neighbourList = node.neighbors;
+        LinkedList<Integer> linkedList = new LinkedList<>();
+        System.out.println();
         while (!queue.isEmpty()) {
             int pollValue = queue.poll();
 
