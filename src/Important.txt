@@ -1,0 +1,3 @@
+1. Whenever kth sorted list comes, use priority queue/heap. Easy to implement using comparator.
+
+2. Maximum sum array - use Kadane's algorithmm (
