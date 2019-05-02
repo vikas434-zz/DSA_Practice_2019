@@ -1,7 +1,6 @@
 package LeetCode;
 
-import java.util.Deque;
-import java.util.LinkedList;
+import java.util.*;
 
 /**
  * Return the length of the shortest, non-empty, contiguous subarray of A with sum at least K.
@@ -89,5 +88,61 @@ public class ShortestSubArrayWithSumAtLeastK {
         }
 
         return ans < N+1 ? ans : -1;
+    }
+
+    public static Integer bestAverageGrade(String[][] scores)
+    {
+        // TODO: implement this function
+        HashMap<String, List<Integer>> map = new HashMap<>();
+        // for(String score : scores) {
+        //   String nameOfStudent = score[0];
+        //   System.out.println("Student name "+nameOfStudent);
+        // }
+
+        if(scores.length == 0) {
+            return 0;
+        }
+
+        for(int i =0; i<scores.length; i++) {
+            String name = scores[i][0];
+            String scoreNow = scores[i][1];
+            int scoreCount = 0;
+            if(map.get(name) != null) {
+                List<Integer> score = map.get(name);
+                int sumTillNow = (Integer)score.get(0);
+                int averageTillNow = (Integer)score.get(1);
+                int countTillNow = (Integer)score.get(2);
+                sumTillNow += Integer.valueOf(scoreNow);
+                countTillNow++;
+                averageTillNow = sumTillNow/countTillNow;
+
+                score.set(0, sumTillNow);
+                score.set(1, averageTillNow);
+                score.set(2, countTillNow);
+                map.put(name, score);
+            }else {
+                List<Integer> score = new ArrayList<>();
+                score.add(Integer.valueOf(scoreNow));
+                score.add(Integer.valueOf(scoreNow));
+                score.add(1);
+                map.put(name, score);
+            }
+
+        } // For ends
+
+        // Find lowest average.
+        double average = Integer.MIN_VALUE;
+        for(String s : map.keySet()) {
+            List<Integer> score = map.get(s);
+            if(score.get(1)  > average) {
+                average = score.get(1);
+            }
+        }
+        System.out.println("average is "+average);
+        if(average > 0) {
+            return (int)Math.floor(average);
+        } else {
+            return (int)Math.ceil(average);
+        }
     }
 }

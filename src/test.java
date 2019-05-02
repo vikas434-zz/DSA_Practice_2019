@@ -29,6 +29,10 @@ public class test implements myrunnable, mycomparabale {
        //  myrunnable.super.run();
         mycomparabale.super.run();
     }
+
+    public static void main(String[] args) {
+        System.out.println(Math.floor(-65.5));
+    }
 }
 
 interface myrunnable {
