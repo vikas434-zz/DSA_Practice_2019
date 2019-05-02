@@ -34,43 +34,39 @@ public class ShortestSubArrayWithSumAtLeastK {
 
 
     public int shortestSubarray(int[] A, int K) {
-        final int NOT_FOUND = -1;
+        // Pseudo code.
+        // 1. Create SumArray, of length n+1 as sum[i] =                sum[0]+...sum[i-1]
+        // 2. Use a doubly linked list.
+        // 3. Traverse through sum array and for each element if it is less than the last inserted elment, keep removing.
+        // 4. If the first and p(y) has difference of K, then keep removing and keep tracking of min number.
 
-        // Use Kadane's algorithm to solve this. Not sure, if it will give the correct result.
-        boolean isSubStringFound = false;
-        int maxHere = 0;
         int size = A.length;
-        int maxLengthOfSubString = 0;
 
-        for (int i = 0; i < size; i++) {
-            if (A[i] + maxHere > 0) {
-                maxHere = A[i] + maxHere;
-                if (maxHere >= K) {
-                    maxLengthOfSubString = i + 1;
-                    break;
-                }
-            }
+        int[] sum = new int[size+1];
+        for(int i =1; i<sum.length; i++) {
+            sum[i] = sum[i-1] + A[i-1];
         }
 
-        // Find possibility within that max length.
-        int counter = 0;
-        int sum = 0;
-        for (int j = maxLengthOfSubString - 1; j >= 0; j--) {
-            // Keep updating sum till it reaches K.
-            sum = sum + A[j];
-            counter++;
-            if (sum >= K || j==0) {
-                isSubStringFound = true;
-                break;
+        int ans = sum.length; // Which is not possible.
+
+        LinkedList<Integer> queue = new LinkedList<>();
+
+        for(int y = 0; y<sum.length; y++) {
+
+            while(!queue.isEmpty() && sum[y] <= sum[queue.getLast()])
+            {
+                queue.removeLast();
             }
 
+            while(!queue.isEmpty() && sum[y] - sum[queue.getFirst()] >= K) {
+                int firstElement = queue.removeFirst();
+                ans = Math.min(ans, y-firstElement);
+            }
+            queue.addLast(y);
+
         }
 
-        if (isSubStringFound) {
-            return counter;
-        } else {
-            return NOT_FOUND;
-        }
+        return ans < sum.length ? ans : -1;
     }
 
     public int leetAnswer(int[] A, int K) {

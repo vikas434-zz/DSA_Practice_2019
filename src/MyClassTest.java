@@ -1,8 +1,10 @@
 public class MyClassTest {
 
     public static void main(String[] args) {
-        test myClassTest = new test();
-        myClassTest.run();
+        long x = 1;
+        long y = 2;
+        long division = x%y;
+        System.out.println(division);
 
 
 
