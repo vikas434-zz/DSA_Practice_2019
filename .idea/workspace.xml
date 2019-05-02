@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bd5bb156-08b6-43c1-9475-6825ed6e5fd4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/ContainerWithMostWater.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/ContainerWithMostWaterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/FirstUniqueCharacter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/FirstUniqueCharacterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/ProductExceptSelf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/ProductExceptSelfTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/ShortestSubArrayWithAtLeastKTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/ShortestSubArrayWithSumAtLeastK.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/LeetCode/ContainerWithMostWater.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/LeetCode/ContainerWithMostWater.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,26 +35,26 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="28484" />
+          <entry key="java" value="30195" />
           <entry key="txt" value="246" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="28484" />
+          <entry key="JAVA" value="30195" />
           <entry key="PLAIN_TEXT" value="246" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="BlockingQueue" value="1" />
-          <entry key="java" value="73" />
+          <entry key="java" value="79" />
           <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="73" />
+          <entry key="JAVA" value="79" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="UML" value="1" />
         </counts>
@@ -68,32 +73,67 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/LeetCode/RainWaterHarvesting.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="332">
-              <caret line="70" lean-forward="true" selection-start-line="70" selection-end-line="70" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/LeetCode/ContainerWithMostWater.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="388">
-              <caret line="109" column="23" selection-start-line="109" selection-start-column="23" selection-end-line="109" selection-end-column="23" />
+            <state relative-caret-position="332">
+              <caret line="111" column="1" lean-forward="true" selection-start-line="111" selection-start-column="1" selection-end-line="111" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/util/TreeMap.java">
+        <entry file="file://$PROJECT_DIR$/src/LeetCode/ProductExceptSelf.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="183">
-              <caret line="1227" column="20" selection-start-line="1227" selection-start-column="20" selection-end-line="1227" selection-end-column="20" />
+            <state relative-caret-position="208">
+              <caret line="45" column="48" selection-start-line="17" selection-end-line="52" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/LeetCode/ShortestSubArrayWithSumAtLeastK.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="148">
+              <caret line="60" column="22" lean-forward="true" selection-start-line="60" selection-start-column="22" selection-end-line="60" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/LeetCode/FirstUniqueCharacter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="181">
+              <caret line="43" column="5" lean-forward="true" selection-start-line="22" selection-start-column="4" selection-end-line="43" selection-end-column="5" />
               <folding>
-                <element signature="e#23800#23801#0" expanded="true" />
-                <element signature="e#23850#23851#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/LeetCode/FirstUniqueCharacterTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="104" selection-start-line="7" selection-start-column="104" selection-end-line="7" selection-end-column="104" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/LeetCode/ShortestSubArrayWithAtLeastKTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="41" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/LeetCode/ProductExceptSelfTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="90" selection-start-line="10" selection-start-column="90" selection-end-line="10" selection-end-column="90" />
             </state>
           </provider>
         </entry>
@@ -121,42 +161,6 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/LeetCode/RainWaterHarvestingTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="71" lean-forward="true" selection-start-line="9" selection-start-column="71" selection-end-line="9" selection-end-column="71" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/lang/Runnable.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="55" column="17" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/LLTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="61" selection-start-line="10" selection-start-column="61" selection-end-line="10" selection-end-column="61" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Node.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -177,12 +181,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/LocalThread.java" />
-        <option value="$PROJECT_DIR$/src/crackTheCodingInterview/IsUniqueChar.java" />
-        <option value="$PROJECT_DIR$/src/crackTheCodingInterview/ArraysAndStrings/IsUniqueChar.java" />
-        <option value="$PROJECT_DIR$/src/crackTheCodingInterview/ArraysAndStrings/reverseCStyleString.java" />
-        <option value="$PROJECT_DIR$/src/crackTheCodingInterview/ArraysAndStrings/isAnagram.java" />
-        <option value="$PROJECT_DIR$/src/GKG/RotateArray.java" />
         <option value="$PROJECT_DIR$/src/GKG/Array/RotateArray.java" />
         <option value="$PROJECT_DIR$/src/GKG/Array/RotateArrayByReverse.java" />
         <option value="$PROJECT_DIR$/src/GKG/Array/FindElementInSortedArray.java" />
@@ -228,6 +226,12 @@
         <option value="$PROJECT_DIR$/src/LeetCode/RainWaterHarvesting.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/ContainerWithMostWaterTest.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/ContainerWithMostWater.java" />
+        <option value="$PROJECT_DIR$/src/LeetCode/ProductExceptSelfTest.java" />
+        <option value="$PROJECT_DIR$/src/LeetCode/ProductExceptSelf.java" />
+        <option value="$PROJECT_DIR$/src/LeetCode/ShortestSubArrayWithAtLeastKTest.java" />
+        <option value="$PROJECT_DIR$/src/LeetCode/ShortestSubArrayWithSumAtLeastK.java" />
+        <option value="$PROJECT_DIR$/src/LeetCode/FirstUniqueCharacterTest.java" />
+        <option value="$PROJECT_DIR$/src/LeetCode/FirstUniqueCharacter.java" />
       </list>
     </option>
   </component>
@@ -280,7 +284,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556715937014" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556737930575" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -306,7 +310,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ContainerWithMostWaterTest">
+  <component name="RunManager" selected="Application.FirstUniqueCharacterTest">
     <configuration name="ContainerWithMostWaterTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LeetCode.ContainerWithMostWaterTest" />
       <module name="JavaPractice" />
@@ -320,22 +324,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LLTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LLTest" />
+    <configuration name="FirstUniqueCharacterTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeetCode.FirstUniqueCharacterTest" />
       <module name="JavaPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LeetCode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyClassTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MyClassTest" />
-      <module name="JavaPractice" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NumberOfIslandTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LeetCode.NumberOfIslandTest" />
+    <configuration name="ProductExceptSelfTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeetCode.ProductExceptSelfTest" />
       <module name="JavaPractice" />
       <extension name="coverage">
         <pattern>
@@ -360,20 +363,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ShortestSubArrayWithAtLeastKTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeetCode.ShortestSubArrayWithAtLeastKTest" />
+      <module name="JavaPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LeetCode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.NumberOfIslandTest" />
-      <item itemvalue="Application.LLTest" />
-      <item itemvalue="Application.MyClassTest" />
       <item itemvalue="Application.RainWaterHarvestingTest" />
       <item itemvalue="Application.ContainerWithMostWaterTest" />
+      <item itemvalue="Application.ProductExceptSelfTest" />
+      <item itemvalue="Application.ShortestSubArrayWithAtLeastKTest" />
+      <item itemvalue="Application.FirstUniqueCharacterTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FirstUniqueCharacterTest" />
+        <item itemvalue="Application.ShortestSubArrayWithAtLeastKTest" />
+        <item itemvalue="Application.ProductExceptSelfTest" />
         <item itemvalue="Application.ContainerWithMostWaterTest" />
         <item itemvalue="Application.RainWaterHarvestingTest" />
-        <item itemvalue="Application.MyClassTest" />
-        <item itemvalue="Application.LLTest" />
-        <item itemvalue="Application.NumberOfIslandTest" />
       </list>
     </recent_temporary>
   </component>
@@ -437,7 +453,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="117026000" />
+    <option name="totallyTimeSpent" value="124010000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="797" extended-state="6" />
@@ -452,8 +468,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32954547" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33522728" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.50142044" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33522728" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.50142044" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -640,6 +656,36 @@
           <properties />
           <option name="timeStamp" value="44" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LeetCode/ProductExceptSelf.java</url>
+          <line>37</line>
+          <properties />
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LeetCode/ProductExceptSelf.java</url>
+          <line>42</line>
+          <properties />
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LeetCode/ProductExceptSelf.java</url>
+          <line>31</line>
+          <properties />
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LeetCode/ShortestSubArrayWithSumAtLeastK.java</url>
+          <line>39</line>
+          <properties />
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LeetCode/ShortestSubArrayWithSumAtLeastK.java</url>
+          <line>52</line>
+          <properties />
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/GKG/Array/RotateArray.java</url>
           <line>6</line>
@@ -701,49 +747,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/GKG/Tree/MaxDiameterTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="107" selection-start-line="20" selection-start-column="107" selection-end-line="20" selection-end-column="107" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/GKG/Tree/Tree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LeetCode.java" />
-    <entry file="file://$PROJECT_DIR$/src/KthLargestElementBinaryTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="36" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
-          <folding>
-            <element signature="e#159#160#0" expanded="true" />
-            <element signature="e#184#185#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LeetCode/SpiralOrderMatrix.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="66" column="24" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="66" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Threads.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="49" column="108" selection-start-line="49" selection-start-column="108" selection-end-line="49" selection-end-column="108" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/lang/management/ThreadInfo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1035">
@@ -762,10 +765,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="49" column="26" selection-start-line="49" selection-start-column="22" selection-end-line="49" selection-end-column="26" />
-          <folding>
-            <element signature="e#541#542#0" expanded="true" />
-            <element signature="e#558#559#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -949,9 +948,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="298">
           <caret line="27" column="29" lean-forward="true" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1036,13 +1032,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/LeetCode/MaxProfitBySellingShareOneMaxOnePass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="29" column="5" selection-start-line="4" selection-start-column="4" selection-end-line="29" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/LeetCode/RainWaterHarvestingTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -1089,8 +1078,60 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LeetCode/ContainerWithMostWater.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="109" column="23" selection-start-line="109" selection-start-column="23" selection-end-line="109" selection-end-column="23" />
+        <state relative-caret-position="332">
+          <caret line="111" column="1" lean-forward="true" selection-start-line="111" selection-start-column="1" selection-end-line="111" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LeetCode/MaxProfitBySellingShareOneMaxOnePass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="29" column="5" selection-start-line="4" selection-start-column="4" selection-end-line="29" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LeetCode/ProductExceptSelfTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="90" selection-start-line="10" selection-start-column="90" selection-end-line="10" selection-end-column="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LeetCode/ProductExceptSelf.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="45" column="48" selection-start-line="17" selection-end-line="52" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LeetCode/ShortestSubArrayWithAtLeastKTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="41" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LeetCode/ShortestSubArrayWithSumAtLeastK.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="60" column="22" lean-forward="true" selection-start-line="60" selection-start-column="22" selection-end-line="60" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LeetCode/FirstUniqueCharacterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="104" selection-start-line="7" selection-start-column="104" selection-end-line="7" selection-end-column="104" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LeetCode/FirstUniqueCharacter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="43" column="5" lean-forward="true" selection-start-line="22" selection-start-column="4" selection-end-line="43" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
