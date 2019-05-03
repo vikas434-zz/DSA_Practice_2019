@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bd5bb156-08b6-43c1-9475-6825ed6e5fd4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/P50Pow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/P50PowTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/P98ValidateBST.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,26 +33,26 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="30616" />
+          <entry key="java" value="30617" />
           <entry key="txt" value="246" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="30616" />
+          <entry key="JAVA" value="30617" />
           <entry key="PLAIN_TEXT" value="246" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="BlockingQueue" value="1" />
-          <entry key="java" value="91" />
+          <entry key="java" value="92" />
           <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="91" />
+          <entry key="JAVA" value="92" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="UML" value="1" />
         </counts>
@@ -81,11 +79,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LeetCode/P50Pow.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="311">
-              <caret line="23" column="73" selection-start-line="23" selection-start-column="73" selection-end-line="23" selection-end-column="73" />
+            <state relative-caret-position="348">
+              <caret line="38" column="5" lean-forward="true" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/LeetCode/P98ValidateBST.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -112,6 +119,7 @@
     <findStrings>
       <find>arrayli</find>
       <find>keyse</find>
+      <find>inorder</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -120,7 +128,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/GKG/Tree/TreeTestMain.java" />
         <option value="$PROJECT_DIR$/src/GKG/Tree/HeapUsingArray.java" />
         <option value="$PROJECT_DIR$/src/GKG/Tree/MinHeapUsingArray.java" />
         <option value="$PROJECT_DIR$/src/GKG/DynamicProgramming/SubsetSumProblem.java" />
@@ -171,6 +178,7 @@
         <option value="$PROJECT_DIR$/src/LeetCode/P238MoveZeros.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/P50PowTest.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/P50Pow.java" />
+        <option value="$PROJECT_DIR$/src/LeetCode/P98ValidateBST.java" />
       </list>
     </option>
   </component>
@@ -223,7 +231,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556897324449" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556899887867" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -350,7 +358,7 @@
       <workItem from="1556263431339" duration="59439000" />
       <workItem from="1556596330010" duration="7356000" />
       <workItem from="1556695101161" duration="8305000" />
-      <workItem from="1556892638027" duration="2182000" />
+      <workItem from="1556892638027" duration="3904000" />
     </task>
     <servers />
   </component>
@@ -381,13 +389,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="136646000" />
+    <option name="totallyTimeSpent" value="138368000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="797" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17310444" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17310444" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -396,14 +404,14 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32954547" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33522728" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33522728" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.50142044" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32954547" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32954547" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" />
       <window_info anchor="bottom" id="Tool Output" order="12" />
@@ -688,13 +696,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/LeetCode/MedianOfSortedArrayTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="84" selection-start-line="10" selection-start-column="84" selection-end-line="10" selection-end-column="84" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/LeetCode/MedianOfSOrtedArray.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
@@ -822,6 +823,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="298">
           <caret line="27" column="29" lean-forward="true" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1012,6 +1016,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="585">
           <caret line="39" column="36" selection-start-line="39" selection-start-column="36" selection-end-line="39" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1062,8 +1069,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LeetCode/P50Pow.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="23" column="73" selection-start-line="23" selection-start-column="73" selection-end-line="23" selection-end-column="73" />
+        <state relative-caret-position="348">
+          <caret line="38" column="5" lean-forward="true" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LeetCode/P98ValidateBST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
         </state>
       </provider>
     </entry>
