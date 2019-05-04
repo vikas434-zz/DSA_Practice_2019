@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bd5bb156-08b6-43c1-9475-6825ed6e5fd4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/P129SumRootToLeafNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/P41FirstMissingPositive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/P41FirstMissingPositiveTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -34,26 +35,26 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="30636" />
+          <entry key="java" value="30856" />
           <entry key="txt" value="246" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="30636" />
+          <entry key="JAVA" value="30856" />
           <entry key="PLAIN_TEXT" value="246" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="BlockingQueue" value="1" />
-          <entry key="java" value="93" />
+          <entry key="java" value="95" />
           <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="93" />
+          <entry key="JAVA" value="95" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="UML" value="1" />
         </counts>
@@ -102,15 +103,33 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LeetCode/P129SumRootToLeafNumbers.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
-              <caret line="27" column="53" lean-forward="true" selection-start-line="27" selection-start-column="53" selection-end-line="27" selection-end-column="53" />
+            <state relative-caret-position="245">
+              <caret line="40" column="27" lean-forward="true" selection-start-line="40" selection-start-column="27" selection-end-line="40" selection-end-column="27" />
               <folding>
-                <element signature="e#177#178#0" expanded="true" />
-                <element signature="e#208#209#0" expanded="true" />
+                <element signature="e#189#190#0" expanded="true" />
+                <element signature="e#220#221#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/LeetCode/P41FirstMissingPositive.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="283">
+              <caret line="57" column="9" lean-forward="true" selection-start-line="53" selection-start-column="8" selection-end-line="57" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/LeetCode/P41FirstMissingPositiveTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="32" lean-forward="true" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -147,8 +166,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/GKG/Tree/MinHeapUsingArray.java" />
-        <option value="$PROJECT_DIR$/src/GKG/DynamicProgramming/SubsetSumProblem.java" />
         <option value="$PROJECT_DIR$/src/GKG/Tree/MaxDiameterTree.java" />
         <option value="$PROJECT_DIR$/src/GKG/Tree/Tree.java" />
         <option value="$PROJECT_DIR$/src/KthLargestElementTree.java" />
@@ -198,6 +215,8 @@
         <option value="$PROJECT_DIR$/src/LeetCode/P50Pow.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/P98ValidateBST.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/P129SumRootToLeafNumbers.java" />
+        <option value="$PROJECT_DIR$/src/LeetCode/P41FirstMissingPositiveTest.java" />
+        <option value="$PROJECT_DIR$/src/LeetCode/P41FirstMissingPositive.java" />
       </list>
     </option>
   </component>
@@ -250,7 +269,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556906653071" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556909097370" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -276,7 +295,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.P50PowTest">
+  <component name="RunManager" selected="Application.P41FirstMissingPositiveTest">
     <configuration name="FractionalToDecimalTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LeetCode.FractionalToDecimalTest" />
       <module name="JavaPractice" />
@@ -290,9 +309,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyClassTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MyClassTest" />
+    <configuration name="P41FirstMissingPositiveTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeetCode.P41FirstMissingPositiveTest" />
       <module name="JavaPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LeetCode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -332,18 +357,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.ShortestSubArrayWithAtLeastKTest" />
-      <item itemvalue="Application.MyClassTest" />
       <item itemvalue="Application.FractionalToDecimalTest" />
       <item itemvalue="Application.test" />
       <item itemvalue="Application.P50PowTest" />
+      <item itemvalue="Application.P41FirstMissingPositiveTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.P41FirstMissingPositiveTest" />
         <item itemvalue="Application.P50PowTest" />
         <item itemvalue="Application.ShortestSubArrayWithAtLeastKTest" />
         <item itemvalue="Application.test" />
         <item itemvalue="Application.FractionalToDecimalTest" />
-        <item itemvalue="Application.MyClassTest" />
       </list>
     </recent_temporary>
   </component>
@@ -377,7 +402,7 @@
       <workItem from="1556263431339" duration="59439000" />
       <workItem from="1556596330010" duration="7356000" />
       <workItem from="1556695101161" duration="8305000" />
-      <workItem from="1556892638027" duration="4962000" />
+      <workItem from="1556892638027" duration="6702000" />
     </task>
     <servers />
   </component>
@@ -408,13 +433,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="139426000" />
+    <option name="totallyTimeSpent" value="141166000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="797" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17310444" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17310444" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -423,14 +448,14 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32954547" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.33522728" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33522728" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.50142044" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32954547" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32954547" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" />
       <window_info anchor="bottom" id="Tool Output" order="12" />
@@ -654,6 +679,12 @@
           <properties />
           <option name="timeStamp" value="58" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LeetCode/P41FirstMissingPositive.java</url>
+          <line>36</line>
+          <properties />
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/GKG/Array/RotateArray.java</url>
           <line>6</line>
@@ -715,14 +746,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/GeneralDS.java" />
-    <entry file="file://$PROJECT_DIR$/src/Graph/GraphWithAdjList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Graph/GraphWithAdjMatrix.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -1099,12 +1122,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LeetCode/P129SumRootToLeafNumbers.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="27" column="53" lean-forward="true" selection-start-line="27" selection-start-column="53" selection-end-line="27" selection-end-column="53" />
+        <state relative-caret-position="245">
+          <caret line="40" column="27" lean-forward="true" selection-start-line="40" selection-start-column="27" selection-end-line="40" selection-end-column="27" />
           <folding>
-            <element signature="e#177#178#0" expanded="true" />
-            <element signature="e#208#209#0" expanded="true" />
+            <element signature="e#189#190#0" expanded="true" />
+            <element signature="e#220#221#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LeetCode/P41FirstMissingPositiveTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="32" lean-forward="true" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LeetCode/P41FirstMissingPositive.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="57" column="9" lean-forward="true" selection-start-line="53" selection-start-column="8" selection-end-line="57" selection-end-column="9" />
         </state>
       </provider>
     </entry>
