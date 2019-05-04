@@ -15,6 +15,7 @@ import java.util.Arrays;
  * Output: 2
  * Example 3:
  *
+ *
  * Input: [7,8,9,11,12]
  * Output: 1
  * Note:
