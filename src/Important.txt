@@ -3,3 +3,10 @@
 2. Maximum sum array - use Kadane's algorithmm
 
 3. For overlapping problems - its good to sort them based on start index.
+
+======================
+Some important questions asked always
+
+1. Design and write code for LRU cache. => Use LinkedHashMap.
+
+2. Implement HashMap in Java :- Use fixed sized array and ListObject like linked list to be added based on the function.

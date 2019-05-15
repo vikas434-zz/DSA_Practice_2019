@@ -1,6 +1,6 @@
 package LeetCode;
 
-import java.util.Arrays;
+import java.util.*;
 
 /**
  * Given an unsorted integer array, find the smallest missing positive integer.
@@ -24,9 +24,11 @@ import java.util.Arrays;
  */
 public class P41FirstMissingPositive {
     public int firstMissingPositive(int[] nums) {
+        System.out.println();
         if(nums.length == 0) {
             return 0;
         }
+        int[] test = new int[3];
 
         if(nums.length == 1) {
             if(nums[0] <=0) {
@@ -36,7 +38,10 @@ public class P41FirstMissingPositive {
             }
         }
         Arrays.sort(nums);
-
+        List<List<Integer>> r = new ArrayList<>();
+        TreeMap<Integer, List<Integer>> map = new TreeMap<>();
+        Map.Entry<Integer, List<Integer>> entry =  map.pollLastEntry();
+        r.add(entry.getValue());
         int i =0;
         while(i <= nums.length -1) {
             if(nums[i] > 0) {
