@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bd5bb156-08b6-43c1-9475-6825ed6e5fd4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/P26RemoveDuplicatesFromSortedArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/General/HashSetIntegerList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/P268MissingNumber.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/Important.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/Important.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/TDD/FizzBuzzTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/TDD/FizzBuzzTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeetCode/P146LRUCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/P146LRUCache.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,13 +40,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="32612" />
+          <entry key="java" value="32904" />
           <entry key="txt" value="634" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="32612" />
+          <entry key="JAVA" value="32904" />
           <entry key="PLAIN_TEXT" value="634" />
         </counts>
       </usages-collector>
@@ -50,14 +54,14 @@
         <counts>
           <entry key="BlockingQueue" value="1" />
           <entry key="class" value="2" />
-          <entry key="java" value="105" />
+          <entry key="java" value="108" />
           <entry key="txt" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="2" />
-          <entry key="JAVA" value="105" />
+          <entry key="JAVA" value="108" />
           <entry key="PLAIN_TEXT" value="3" />
           <entry key="UML" value="1" />
         </counts>
@@ -88,6 +92,21 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/LeetCode/P146LRUCache.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="233">
+              <caret line="38" column="15" selection-start-line="38" selection-start-column="15" selection-end-line="38" selection-end-column="15" />
+              <folding>
+                <element signature="e#1147#1148#0" expanded="true" />
+                <element signature="e#1170#1171#0" expanded="true" />
+                <element signature="e#1214#1215#0" expanded="true" />
+                <element signature="e#1236#1237#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LeetCode/P53MaximumSubarray.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
@@ -96,11 +115,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LeetCode/P26RemoveDuplicatesFromSortedArray.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="476">
               <caret line="54" column="5" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/General/HashSetIntegerList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/LeetCode/P268MissingNumber.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="457">
+              <caret line="53" column="22" selection-start-line="53" selection-start-column="22" selection-end-line="53" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -135,33 +172,6 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/lang/System.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="58" column="19" selection-start-line="58" selection-start-column="19" selection-end-line="58" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/LeetCode/P41FirstMissingPositiveTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/LeetCode/P50PowTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -185,8 +195,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/LeetCode/LRUCache.java" />
-        <option value="$PROJECT_DIR$/src/LeetCode/LinkedHashMapPractice.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/AddTwoNumbersLinkedList.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/MedianOfSortedArrayTest.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/MedianOfSOrtedArray.java" />
@@ -229,13 +237,15 @@
         <option value="$PROJECT_DIR$/src/LeetCode/P41FirstMissingPositive.java" />
         <option value="$PROJECT_DIR$/src/TDD/FizzBuzzConvertor.java" />
         <option value="$PROJECT_DIR$/src/TDD/FizzBuzzTest.java" />
-        <option value="$PROJECT_DIR$/src/LeetCode/P146LRUCache.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/P4MedianOfTwoSortedArrays.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/P4MedianOfTwoSortedArraysFailed.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/P15ThreeSum.java" />
         <option value="$PROJECT_DIR$/src/Important.txt" />
         <option value="$PROJECT_DIR$/src/LeetCode/P53MaximumSubarray.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/P26RemoveDuplicatesFromSortedArray.java" />
+        <option value="$PROJECT_DIR$/src/LeetCode/P146LRUCache.java" />
+        <option value="$PROJECT_DIR$/src/General/HashSetIntegerList.java" />
+        <option value="$PROJECT_DIR$/src/LeetCode/P268MissingNumber.java" />
       </list>
     </option>
   </component>
@@ -273,24 +283,6 @@
               <item name="JavaPractice" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="JavaPractice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaPractice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="GKG" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaPractice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaPractice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaPractice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaPractice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="systemDesign" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -300,7 +292,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557982928596" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557986759977" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -329,7 +321,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.FizzBuzzTest.testPlainNumberOTherThanThreeAndFive">
+  <component name="RunManager" selected="Application.HashSetIntegerList">
+    <configuration name="HashSetIntegerList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="General.HashSetIntegerList" />
+      <module name="JavaPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="General.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="P41FirstMissingPositiveTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LeetCode.P41FirstMissingPositiveTest" />
       <module name="JavaPractice" />
@@ -369,13 +374,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test" />
-      <module name="JavaPractice" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="FizzBuzzTest.testPlainNumberOTherThanThreeAndFive" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaPractice" />
       <extension name="coverage">
@@ -394,18 +392,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.ShortestSubArrayWithAtLeastKTest" />
-      <item itemvalue="Application.test" />
       <item itemvalue="Application.P50PowTest" />
       <item itemvalue="Application.P41FirstMissingPositiveTest" />
       <item itemvalue="JUnit.FizzBuzzTest.testPlainNumberOTherThanThreeAndFive" />
+      <item itemvalue="Application.HashSetIntegerList" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HashSetIntegerList" />
         <item itemvalue="JUnit.FizzBuzzTest.testPlainNumberOTherThanThreeAndFive" />
         <item itemvalue="Application.P41FirstMissingPositiveTest" />
         <item itemvalue="Application.P50PowTest" />
         <item itemvalue="Application.ShortestSubArrayWithAtLeastKTest" />
-        <item itemvalue="Application.test" />
       </list>
     </recent_temporary>
   </component>
@@ -445,7 +443,7 @@
       <workItem from="1557281204470" duration="1339000" />
       <workItem from="1557395651211" duration="29000" />
       <workItem from="1557419638716" duration="668000" />
-      <workItem from="1557902600172" duration="3304000" />
+      <workItem from="1557902600172" duration="4282000" />
     </task>
     <servers />
   </component>
@@ -482,7 +480,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="149600000" />
+    <option name="totallyTimeSpent" value="150578000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -497,16 +495,16 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32954547" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.33413753" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.33413753" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.50142044" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.3293124" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3293124" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3293124" />
       <window_info anchor="bottom" id="Tool Output" order="12" />
       <window_info anchor="bottom" id="ANTLR Preview" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -795,34 +793,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="uml://JAVA/java.util.concurrent.BlockingQueue">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>java.util.concurrent.BlockingQueue</OriginalElement>
-          <nodes>
-            <node x="" y="">java.util.Collection</node>
-            <node x="" y="">java.util.concurrent.BlockingQueue</node>
-            <node x="" y="">java.util.Queue</node>
-            <node x="" y="">java.lang.Iterable</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="72.0" y="135.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/util/Queue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="136" column="47" lean-forward="true" selection-start-line="136" selection-start-column="47" selection-end-line="136" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/DeepClone.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="298">
@@ -1079,13 +1049,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/LeetCode/P146LRUCache.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="30" column="24" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/Downloads/junit-4.10.jar!/org/junit/Assert.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3360">
@@ -1183,6 +1146,33 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
           <caret line="54" column="5" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LeetCode/P146LRUCache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="38" column="15" selection-start-line="38" selection-start-column="15" selection-end-line="38" selection-end-column="15" />
+          <folding>
+            <element signature="e#1147#1148#0" expanded="true" />
+            <element signature="e#1170#1171#0" expanded="true" />
+            <element signature="e#1214#1215#0" expanded="true" />
+            <element signature="e#1236#1237#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/General/HashSetIntegerList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LeetCode/P268MissingNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="457">
+          <caret line="53" column="22" selection-start-line="53" selection-start-column="22" selection-end-line="53" selection-end-column="22" />
         </state>
       </provider>
     </entry>
