@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bd5bb156-08b6-43c1-9475-6825ed6e5fd4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/P532KDiffPairInAnArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/P189RotateArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -36,13 +36,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="33176" />
+          <entry key="java" value="33634" />
           <entry key="txt" value="634" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="33176" />
+          <entry key="JAVA" value="33634" />
           <entry key="PLAIN_TEXT" value="634" />
         </counts>
       </usages-collector>
@@ -50,14 +50,14 @@
         <counts>
           <entry key="BlockingQueue" value="1" />
           <entry key="class" value="2" />
-          <entry key="java" value="109" />
+          <entry key="java" value="110" />
           <entry key="txt" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="2" />
-          <entry key="JAVA" value="109" />
+          <entry key="JAVA" value="110" />
           <entry key="PLAIN_TEXT" value="3" />
           <entry key="UML" value="1" />
         </counts>
@@ -66,18 +66,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/TDD/FizzBuzzTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Important.txt">
           <provider selected="true" editor-type-id="text-editor">
@@ -138,7 +126,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LeetCode/P532KDiffPairInAnArray.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="451">
@@ -146,6 +134,15 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/LeetCode/P189RotateArray.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="27" column="5" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="27" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -194,7 +191,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/LeetCode/MedianOfSortedArrayTest.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/MedianOfSOrtedArray.java" />
         <option value="$PROJECT_DIR$/src/Graph/GraphWithAdjMatrix.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/NumberOfIslandTest.java" />
@@ -245,6 +241,7 @@
         <option value="$PROJECT_DIR$/src/General/HashSetIntegerList.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/P268MissingNumber.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/P532KDiffPairInAnArray.java" />
+        <option value="$PROJECT_DIR$/src/LeetCode/P189RotateArray.java" />
       </list>
     </option>
   </component>
@@ -291,7 +288,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557987971114" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557992171317" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -442,7 +439,7 @@
       <workItem from="1557281204470" duration="1339000" />
       <workItem from="1557395651211" duration="29000" />
       <workItem from="1557419638716" duration="668000" />
-      <workItem from="1557902600172" duration="5159000" />
+      <workItem from="1557902600172" duration="7233000" />
     </task>
     <servers />
   </component>
@@ -479,7 +476,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="151455000" />
+    <option name="totallyTimeSpent" value="153529000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -792,13 +789,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/LeetCode/KClosestPointsToOriginPriorityQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="62">
-          <caret line="32" column="14" lean-forward="true" selection-start-line="32" selection-start-column="14" selection-end-line="32" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/LinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
@@ -1175,6 +1165,13 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LeetCode/P189RotateArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="5" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="27" selection-end-column="5" />
         </state>
       </provider>
     </entry>
