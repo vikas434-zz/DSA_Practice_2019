@@ -26,4 +26,9 @@ public class TestJunit {
             throw new NoSuchFieldException("Test");
         }
     }
+
+    @Test
+    public void basicTest() {
+
+    }
 }
