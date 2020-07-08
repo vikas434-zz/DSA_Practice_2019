@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bd5bb156-08b6-43c1-9475-6825ed6e5fd4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetCodeTop100Liked/P67MergeTwoBinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetCodeTop100Liked/P104MaxDepthBinaryTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -22,11 +22,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leetCodeTop100Liked/P67MergeTwoBinaryTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="254">
-              <caret line="51" column="63" selection-start-line="51" selection-start-column="63" selection-end-line="51" selection-end-column="63" />
+            <state relative-caret-position="885">
+              <caret line="59" selection-start-line="59" selection-end-line="76" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/leetCodeTop100Liked/P104MaxDepthBinaryTree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="29" column="17" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -54,7 +63,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/LeetCode/KClosestPointsToOrigin.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/KClosestPointsToOriginPriorityQueue.java" />
         <option value="$PROJECT_DIR$/src/LinkedList.java" />
         <option value="$PROJECT_DIR$/src/LLTest.java" />
@@ -105,13 +113,13 @@
         <option value="$PROJECT_DIR$/src/LeetCode/P66PlusOne.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/P138CopyListWithRandomPointers.java" />
         <option value="$PROJECT_DIR$/src/leetCodeTop100Liked/P67MergeTwoBinaryTree.java" />
+        <option value="$PROJECT_DIR$/src/leetCodeTop100Liked/P104MaxDepthBinaryTree.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="797" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -150,8 +158,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -163,6 +171,7 @@
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
@@ -316,7 +325,8 @@
       <workItem from="1593667925017" duration="691000" />
       <workItem from="1593681336669" duration="1049000" />
       <workItem from="1594136185941" duration="82000" />
-      <workItem from="1594181952214" duration="307000" />
+      <workItem from="1594181952214" duration="858000" />
+      <workItem from="1594182855837" duration="584000" />
     </task>
     <servers />
   </component>
@@ -353,13 +363,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="161021000" />
+    <option name="totallyTimeSpent" value="162156000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19456366" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19742489" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -375,13 +385,14 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32891566" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32891566" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.3293124" />
       <window_info anchor="bottom" id="Tool Output" order="12" />
       <window_info anchor="bottom" id="ANTLR Preview" order="13" />
       <window_info anchor="bottom" id="Docker" order="14" show_stripe_button="false" />
       <window_info anchor="bottom" id="Flutter Performance" order="15" side_tool="true" />
+      <window_info anchor="right" id="Key Promoter X" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -668,7 +679,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/util/PriorityQueue.java" />
     <entry file="file://$PROJECT_DIR$/src/LeetCode/ContainerWithMostWaterTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -986,8 +996,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/leetCodeTop100Liked/P67MergeTwoBinaryTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="51" column="63" selection-start-line="51" selection-start-column="63" selection-end-line="51" selection-end-column="63" />
+        <state relative-caret-position="885">
+          <caret line="59" selection-start-line="59" selection-end-line="76" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetCodeTop100Liked/P104MaxDepthBinaryTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="29" column="17" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
         </state>
       </provider>
     </entry>
