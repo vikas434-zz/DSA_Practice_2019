@@ -2,13 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e5e5a6a6-0567-405d-8ec5-dd3d72535ce3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/3/73767cb4c0f140e0028dfcfbc16a8004257c638b" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/General/MapTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetCodeTop100Liked/P169MajorityElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetCodeTop100Liked/P226InvertBinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarIssues.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarIssues.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/f/7f6e18bb70cb5097dab5ed46a4ef514d6cdcc249" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/f/7f6e18bb70cb5097dab5ed46a4ef514d6cdcc249" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/7/87a96a77fc81b132a15e25eeea4662df2453447c" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/7/87a96a77fc81b132a15e25eeea4662df2453447c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/c/bc7ffc18710f449fe43b47eac68a77a2d39705fc" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/c/bc7ffc18710f449fe43b47eac68a77a2d39705fc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/7/d7c548d4b6424ec404309be30e5937d63f9bd722" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/7/d7c548d4b6424ec404309be30e5937d63f9bd722" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/d/ddc78bbfa0cea40fcbae6ad00f9704f4f7407bc1" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/d/ddc78bbfa0cea40fcbae6ad00f9704f4f7407bc1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/leetCodeTop100Liked/P136SingleNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/leetCodeTop100Liked/P136SingleNumber.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,36 +31,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/General/XORTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/LeetCode/P349IntersectionOfTwoArrays.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="3" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/LeetCode/P66PlusOne.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LeetCode/P138CopyListWithRandomPointers.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -81,17 +55,59 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="40" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
+            <state relative-caret-position="465">
+              <caret line="31" column="38" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/leetCodeTop100Liked/P136SingleNumber.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="421">
+              <caret line="50" column="28" selection-start-line="50" selection-start-column="28" selection-end-line="50" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/leetCodeTop100Liked/P226InvertBinaryTree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="26" column="23" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/leetCodeTop100Liked/P136SingleNumber.java">
+        <entry file="file://$PROJECT_DIR$/src/leetCodeTop100Liked/P169MajorityElement.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="83">
-              <caret line="28" column="41" lean-forward="true" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
+            <state relative-caret-position="39">
+              <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="49" selection-end-column="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/General/MapTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="41" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/leetCodeTop100Liked/P67MergeTwoBinaryTree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="365">
+              <caret line="59" column="6" selection-start-line="59" selection-start-column="6" selection-end-line="59" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -137,9 +153,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/LinkedList.java" />
-        <option value="$PROJECT_DIR$/src/LLTest.java" />
-        <option value="$PROJECT_DIR$/src/LeetCode/ReverseLinkedList.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/MaxProfitBySellingShare.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/MaxProfitBySellingShare2.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/MaxProfitBySellingShareOneMaxOnePass.java" />
@@ -188,13 +201,17 @@
         <option value="$PROJECT_DIR$/src/General/sqrt.java" />
         <option value="$PROJECT_DIR$/src/General/XORTest.java" />
         <option value="$PROJECT_DIR$/src/leetCodeTop100Liked/P136SingleNumber.java" />
+        <option value="$PROJECT_DIR$/src/leetCodeTop100Liked/P226InvertBinaryTree.java" />
+        <option value="$PROJECT_DIR$/src/General/MapTest.java" />
+        <option value="$PROJECT_DIR$/src/leetCodeTop100Liked/P169MajorityElement.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="x" value="846" />
+    <option name="y" value="23" />
     <option name="width" value="834" />
-    <option name="height" value="1050" />
+    <option name="height" value="1027" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -205,8 +222,6 @@
     </navigator>
     <panes>
       <pane id="CatdeaLogs" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -242,6 +257,12 @@
               <item name="DSA_Practice_2019" type="b2602c69:ProjectViewProjectNode" />
               <item name="DSA_Practice_2019" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Graph" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DSA_Practice_2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DSA_Practice_2019" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -254,12 +275,21 @@
               <item name="DSA_Practice_2019" type="b2602c69:ProjectViewProjectNode" />
               <item name="DSA_Practice_2019" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="leetCodeTop100Liked" type="462c0819:PsiDirectoryNode" />
+              <item name="P67MergeTwoBinaryTree.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="DSA_Practice_2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DSA_Practice_2019" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="TDD" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -296,7 +326,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.XORTest">
+  <component name="RunManager" selected="Application.P169MajorityElement">
     <configuration name="HashSetIntegerList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="General.HashSetIntegerList" />
       <module name="JavaPractice" />
@@ -310,12 +340,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P41FirstMissingPositiveTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LeetCode.P41FirstMissingPositiveTest" />
+    <configuration name="MapTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="General.MapTest" />
       <module name="JavaPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LeetCode.*" />
+          <option name="PATTERN" value="General.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="P169MajorityElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetCodeTop100Liked.P169MajorityElement" />
+      <module name="JavaPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetCodeTop100Liked.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -349,36 +392,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FizzBuzzTest.testPlainNumberOTherThanThreeAndFive" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="TDD.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="TDD" />
-      <option name="MAIN_CLASS_NAME" value="TDD.FizzBuzzTest" />
-      <option name="METHOD_NAME" value="testPlainNumberOTherThanThreeAndFive" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.P41FirstMissingPositiveTest" />
       <item itemvalue="Application.HashSetIntegerList" />
       <item itemvalue="Application.XORTest" />
       <item itemvalue="Application.sqrt" />
-      <item itemvalue="JUnit.FizzBuzzTest.testPlainNumberOTherThanThreeAndFive" />
+      <item itemvalue="Application.MapTest" />
+      <item itemvalue="Application.P169MajorityElement" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.P169MajorityElement" />
+        <item itemvalue="Application.MapTest" />
         <item itemvalue="Application.XORTest" />
         <item itemvalue="Application.sqrt" />
         <item itemvalue="Application.HashSetIntegerList" />
-        <item itemvalue="JUnit.FizzBuzzTest.testPlainNumberOTherThanThreeAndFive" />
-        <item itemvalue="Application.P41FirstMissingPositiveTest" />
       </list>
     </recent_temporary>
   </component>
@@ -422,7 +449,8 @@
       <workItem from="1558428723078" duration="2815000" />
       <workItem from="1579325107673" duration="898000" />
       <workItem from="1592548258377" duration="386000" />
-      <workItem from="1594662851296" duration="164000" />
+      <workItem from="1594662851296" duration="363000" />
+      <workItem from="1594663313744" duration="2278000" />
     </task>
     <servers />
   </component>
@@ -459,12 +487,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="161974000" />
+    <option name="totallyTimeSpent" value="164451000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1935287" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1898657" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -474,13 +503,13 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32954547" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.33367348" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.50060314" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.5" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32857144" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32040817" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32857144" />
       <window_info anchor="bottom" id="Tool Output" order="12" />
@@ -712,6 +741,24 @@
           <properties />
           <option name="timeStamp" value="60" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetCodeTop100Liked/P169MajorityElement.java</url>
+          <line>34</line>
+          <properties />
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetCodeTop100Liked/P169MajorityElement.java</url>
+          <line>40</line>
+          <properties />
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetCodeTop100Liked/P169MajorityElement.java</url>
+          <line>44</line>
+          <properties />
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/GKG/Array/RotateArray.java</url>
           <line>6</line>
@@ -773,34 +820,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/LeetCode/ProductExceptSelfTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="90" selection-start-line="10" selection-start-column="90" selection-end-line="10" selection-end-column="90" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LeetCode/ProductExceptSelf.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="45" column="48" selection-start-line="17" selection-end-line="52" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LeetCode/FirstUniqueCharacterTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="104" selection-start-line="7" selection-start-column="104" selection-end-line="7" selection-end-column="104" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LeetCode/FirstUniqueCharacter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="17" lean-forward="true" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/MyClassTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -1060,8 +1079,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="40" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
+        <state relative-caret-position="465">
+          <caret line="31" column="38" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
         </state>
       </provider>
     </entry>
@@ -1081,8 +1100,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/leetCodeTop100Liked/P136SingleNumber.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="83">
-          <caret line="28" column="41" lean-forward="true" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
+        <state relative-caret-position="421">
+          <caret line="50" column="28" selection-start-line="50" selection-start-column="28" selection-end-line="50" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetCodeTop100Liked/P67MergeTwoBinaryTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="59" column="6" selection-start-line="59" selection-start-column="6" selection-end-line="59" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetCodeTop100Liked/P226InvertBinaryTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="23" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/General/MapTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="41" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetCodeTop100Liked/P169MajorityElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="39">
+          <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="49" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -8,6 +8,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/General/MapTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/General/XORTest.java">
           <value>
             <set />
@@ -24,6 +29,16 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/leetCodeTop100Liked/P136SingleNumber.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/leetCodeTop100Liked/P169MajorityElement.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/leetCodeTop100Liked/P226InvertBinaryTree.java">
           <value>
             <set />
           </value>
