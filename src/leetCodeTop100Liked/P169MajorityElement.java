@@ -22,11 +22,6 @@ import java.util.Map;
  */
 public class P169MajorityElement {
 
-    public static void main(String[] args) {
-        int[] array = {3,2,3};
-        majorityElement(array);
-    }
-
 //    public static int majorityElement(int[] nums) {
 //        if (nums.length == 0) {
 //            return 0;
