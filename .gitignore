@@ -11,6 +11,7 @@ release.properties
 # Intellij Files
 *.iml
 .idea
+.idea/workspace.xml
 
 # Eclipse Files
 .classpath
