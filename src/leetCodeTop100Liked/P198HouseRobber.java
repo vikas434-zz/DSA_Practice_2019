@@ -40,13 +40,25 @@ public class P198HouseRobber {
 
         int dp[] = new int[nums.length];
 
-        for (int i = 0; i < nums.length; i++) {
-            dp[i] = nums[i] + checkIfNumFeasible(i, dp);
-            // System.out.println("dp of " + i + "is " + dp[i]);
+        /**
+         * This solution doesn't work
+         *
+         *  for (int i = 0; i < nums.length; i++) {
+         *             dp[i] = nums[i] + checkIfNumFeasible(i, dp);
+         *             // System.out.println("dp of " + i + "is " + dp[i]);
+         *         }
+         *
+         *         // Highest can be the last or last but one
+         *         return Math.max(dp[nums.length - 1], dp[nums.length - 2]);
+         */
+        dp[0] = nums[0];
+
+        for (int i = 1; i < nums.length; i++) {
+            dp[i] = Math.max(dp[i - 1], nums[i] + checkIfNumFeasible(i, dp));
         }
 
-        // Highest can be the last or last but one
-        return Math.max(dp[nums.length - 1], dp[nums.length - 2]);
+        return dp[nums.length - 1];
+
 
     }
 
@@ -59,3 +71,13 @@ public class P198HouseRobber {
 
     }
 }
+
+/**
+ * Learning
+ * <p>
+ * 1. One of the possible mistake done at very first time is assuming that we have to leave alternate house (this happened
+ * because of the test case given), sometime test cases are given just to focus on one aspect of the solution. We need
+ * to think about all the test case and come up with DP solution.
+ *
+ * The first approach, which is commented will not work for test case [2,1,1,2]
+ */
