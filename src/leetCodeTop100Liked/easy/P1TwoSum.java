@@ -1,4 +1,4 @@
-package leetCodeTop100Liked;
+package leetCodeTop100Liked.easy;
 
 import java.util.HashMap;
 import java.util.Map;

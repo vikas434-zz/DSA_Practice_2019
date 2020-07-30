@@ -1,4 +1,4 @@
-package leetCodeTop100Liked;
+package leetCodeTop100Liked.easy;
 
 /**
  * Created by vranjan on 2020-07-13

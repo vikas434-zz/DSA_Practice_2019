@@ -1,4 +1,4 @@
-package leetCodeTop100Liked;
+package leetCodeTop100Liked.easy;
 
 /* Created by Vikas Ranjan on 2020-07-17
  * Say you have an array for which the ith element is the price of a given stock on day i.
@@ -23,18 +23,26 @@ public class P121BestTimeToBuySellStocks {
 
     public int maxProfit(int[] prices) {
         int maxProfit = 0;
-        if (prices.length == 0) {
+
+        if (prices.length <= 1) {
             return maxProfit;
         }
 
-        if (prices.length == 1) {
-            return prices[0];
+        int minSoFar = Integer.MAX_VALUE;
+
+        for (int i = 0; i < prices.length; i++) {
+            if (prices[i] < minSoFar) {
+                minSoFar = prices[i];
+            } else {
+                maxProfit = Math.max(maxProfit, prices[i] - minSoFar);
+            }
         }
-
-        for(int i = 0; i<prices.length -1; i++) {
-
-        }
-
         return maxProfit;
     }
 }
+
+/**
+ * Learning :- for the input of single array, there will not be any profit.
+ * <p>
+ * Idea to solve this is to iterate once from left to right and find the peak and compare with existing bottom
+ */

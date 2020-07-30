@@ -1,4 +1,4 @@
-package leetCodeTop100Liked;
+package leetCodeTop100Liked.easy;
 
 /**
  * https://leetcode.com/problemset/top-100-liked-questions/?difficulty=Easy
