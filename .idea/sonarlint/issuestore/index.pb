@@ -19,5 +19,7 @@ M
 src/LeetCode/P55JumoGame.java,d/d/ddc78bbfa0cea40fcbae6ad00f9704f4f7407bc1
 E
 src/General/sqrt.java,b/c/bc7ffc18710f449fe43b47eac68a77a2d39705fc
-]
--src/leetCodeTop100Liked/P136SingleNumber.java,2/b/2bba4b2754097aee02cc82d364b6b1ed6c3ec32c
+X
+(src/specialQuestions/SpecialNumbers.java,a/2/a2e7d6fa7cfc5bc893b57b06e5d01d5930ac4778
+k
+;src/leetCodeTop100Liked/medium/P287FindDuplicateNumber.java,d/d/ddfba577f3b1b6f6cfff0473d7200a5613edfe29

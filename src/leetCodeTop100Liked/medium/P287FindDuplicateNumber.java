@@ -1,5 +1,7 @@
 package leetCodeTop100Liked.medium;
 
+import java.util.Arrays;
+
 /**
  * Created by vranjan on 2020-11-06
  * 
@@ -34,14 +36,32 @@ package leetCodeTop100Liked.medium;
  */
 //TODO
 public class P287FindDuplicateNumber {
-     public int findDuplicate(int[] nums) {
-        int length = nums.length;
-        int expectedSum = (length * (length +1))/2;
-        int totalSum = 0;
-        for(int i = 0; i< length; i++) {
-            totalSum += nums[i];
+    // Scenario 1 -- not working
+//     public int findDuplicate(int[] nums) {
+//        int length = nums.length;
+//        int expectedSum = (length * (length +1))/2;
+//        int totalSum = 0;
+//        for(int i = 0; i< length; i++) {
+//            totalSum += nums[i];
+//        }
+//        int lastSum = expectedSum - length;
+//        return totalSum - lastSum;
+//    }
+    
+    // [3,1,3,4,2] -> [1,2,3,3,4]
+    public int findDuplicate(int[] nums) {
+        Arrays.sort(nums);
+        for(int i = 1; i< nums.length; i++) {
+            if(nums[i] == nums[i-1]) {
+                return nums[i];
+            }
         }
-        int lastSum = expectedSum - length;
-        return totalSum - lastSum;
+        return -1;
     }
+    
+    
 }
+
+// Mistake :- the duplicate case like [2,2,2,2] is not taken care in the above scenario. - 1
+
+// Other possible solution is to use Set or use pigeon hole principle.
