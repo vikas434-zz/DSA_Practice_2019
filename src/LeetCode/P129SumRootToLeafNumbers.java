@@ -1,5 +1,8 @@
 package LeetCode;
 
+import java.util.LinkedList;
+import java.util.Queue;
+
 /**
  * Given a binary tree containing digits from 0-9 only, each root-to-leaf path could represent a number.
  *
@@ -39,7 +42,7 @@ package LeetCode;
 public class P129SumRootToLeafNumbers {
 
     public class TreeNode {
-        int val;
+        int      val;
         TreeNode left;
         TreeNode right;
 
@@ -49,6 +52,7 @@ public class P129SumRootToLeafNumbers {
     }
 
     int total;
+
     public int sumNumbers(TreeNode root) {
 
         total = 0;
@@ -57,13 +61,13 @@ public class P129SumRootToLeafNumbers {
     }
 
     public void helper(TreeNode root, int sum) {
-        if(root == null) {
+        if (root == null) {
             return;
         }
 
-        sum = sum*10 + root.val;
+        sum = sum * 10 + root.val;
 
-        if(root.left == null && root.right == null) {
+        if (root.left == null && root.right == null) {
             total = total + sum;
             return;
         }
@@ -72,4 +76,65 @@ public class P129SumRootToLeafNumbers {
         helper(root.left, sum);
         helper(root.right, sum);
     }
+
+    // NLR
+    public void preOrder(TreeNode root) {
+        if (root == null) {
+            return;
+        }
+        System.out.println(root.val);
+        preOrder(root.left);
+        preOrder(root.right);
+
+    }
+
+    // LRN
+    public void postOrder(TreeNode root) {
+        if (root == null) {
+            return;
+        }
+
+
+        postOrder(root.left);
+        postOrder(root.right);
+        System.out.println(root.val);
+    }
+
+    // LNR
+    public void inOrder(TreeNode root) {
+        if (root == null) {
+            return;
+        }
+
+
+        inOrder(root.left);
+        System.out.println(root.val);
+        inOrder(root.right);
+    }
+
+    // Level order traversal (BFS)
+//    public void levelOrderModifiedforP1302(TreeNode root) {
+//        if (root == null) {
+//            return;
+//        }
+//        int sum = 0;
+//
+//        final Queue<TreeNode> queue = new LinkedList<>();
+//        queue.add(root);
+//        while (!queue.isEmpty()) {
+//            TreeNode node = queue.poll();
+//            if (node.left != null) {
+//                queue.add(node.left);
+//            }
+//            if(node.right != null) {
+//                queue.add(node.right);
+//            }
+//            if(node.left == null && node.right == null) {
+//                sum+=node.val;
+//            }
+//        }
+//
+//    }
+
+
 }
