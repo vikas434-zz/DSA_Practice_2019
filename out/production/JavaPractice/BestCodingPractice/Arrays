@@ -1,0 +1,5 @@
+Arrays problems can be solved in multiple ways. For better optimization of the code and best performance, we should follow the below things.
+
+1. Check out HashMap, Set for finding duplicates, search etc.
+2. Sort array and look for duplicate
+3. Think about binary search for rotated arrays
