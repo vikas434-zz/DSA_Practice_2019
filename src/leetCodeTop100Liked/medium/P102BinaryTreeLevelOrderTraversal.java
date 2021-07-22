@@ -26,7 +26,7 @@ import java.util.Queue;
  */
 public class P102BinaryTreeLevelOrderTraversal {
     
-    //TODO level order
+    //TODO level order traversal
     
      public class TreeNode {
       int val;
