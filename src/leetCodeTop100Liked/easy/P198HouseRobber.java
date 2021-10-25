@@ -79,5 +79,5 @@ public class P198HouseRobber {
  * because of the test case given), sometime test cases are given just to focus on one aspect of the solution. We need
  * to think about all the test case and come up with DP solution.
  *
- * The first approach, which is commented will not work for test case [2,1,1,2]
+ * The first approach, which is commented will not work for test case [2,1,1,6]
  */
